@@ -14,12 +14,12 @@ function Post(props) {
       <div className="header">
         <img
           className="profile-image"
-          src={props.data.profileImage}
-          alt={props.data.profileName}
+          src={props.data.image}
+          alt={props.data.name}
         ></img>
         <h1 className="profile-name">{props.data.profileName}</h1>
       </div>
-      <p className="content">{props.data.postContent}</p>
+      <p className="content">{props.data.content}</p>
       <div className="footer">
         <p className="date">{formattedDate}</p>
       </div>
